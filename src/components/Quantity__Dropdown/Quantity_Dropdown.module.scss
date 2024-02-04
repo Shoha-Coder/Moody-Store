@@ -1,0 +1,16 @@
+select{
+    width: 77px;
+    height: 31px;
+    border-radius: none;
+    border: 1px solid #000;
+    background-color: transparent;
+    border-radius:0px;
+    &:active{
+        border-radius: 0px;
+    }
+    option{
+        margin: 77px;
+        border: 1px solid #000;
+        border-radius: none;
+    }
+}

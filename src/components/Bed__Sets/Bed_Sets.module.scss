@@ -1,0 +1,45 @@
+.Bed__sets {
+  width: 99%;
+  height: 510px;
+  background-image: url("../../Images/bed\ sets.png");
+  background-repeat: no-repeat;
+
+  .Bed__sets_ {
+    position: relative;
+    width: 545px;
+    height: 338px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-left: 147px;
+    top: 109px;
+    .title {
+      width: 212px;
+      height: 33px;
+      margin-left: 130px;
+      padding-top: 61px;
+      margin-bottom: 67px;
+    }
+    .price {
+      display: flex;
+      align-items: center;
+      margin-left: 130px;
+      color: rgba(123, 81, 54, 1);
+      span {
+        width: 60px;
+        height: 19px;
+        font-size: 16px;
+        margin-left: 26px;
+        text-decoration: line-through;
+      }
+    }
+    .description {
+      width: 312px;
+      height: 44px;
+      margin-left: 130px;
+      margin-top: 16px;
+    }
+    .btn {
+      margin-left: 130px;
+      margin-top: 16px;
+    }
+  }
+}

@@ -1,0 +1,162 @@
+.Shopping__Bag {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  .Shop__Bag {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    .Total {
+      width: 760px;
+      border-bottom: 2px solid black;
+      text-align: end;
+      font-weight: 600;
+      font-size: 18px;
+      padding-bottom: 10px;
+    }
+    .cartTotal {
+      text-align: end;
+      font-weight: 600;
+      font-size: 18px;
+      margin-top: -25px;
+    }
+    .Item {
+      display: flex;
+      align-items: center;
+      img {
+        width: 180px;
+        height: 230px;
+        margin-right: 20px;
+      }
+      .Prop {
+        .title {
+          width: 550px;
+          display: flex;
+          justify-content: space-between;
+        }
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        .Bottom {
+          display: flex;
+          align-items: center;
+          margin-top: 25px;
+          gap: 10px;
+          p {
+            border: 1px solid #000;
+            width: 31px;
+            display: flex;
+            height: 31px;
+            align-items: center;
+            justify-content: center;
+          }
+          button {
+            width: 31px;
+            height: 31px;
+          }
+        }
+        .Static {
+          p {
+            display: flex;
+            gap: 20px;
+          }
+        }
+      }
+    }
+  }
+  .Checkout {
+    width: 510px;
+    height: 507px;
+    background-color: rgba(236, 235, 233, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 129px;
+    margin-top: 0;
+    padding-top: 0;
+    padding: 0 0 0 45px;
+    h1 {
+      color: rgba(50, 51, 52, 1);
+      font-weight: 400;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    label {
+      &.label{
+        display: flex;
+        align-items: center;
+      }
+      input {
+        border: 2px solid rgba(50, 51, 52, 1);
+        width: 345px;
+        height: 54px;
+        background-color: transparent;
+      }
+      button {
+        width: 65px;
+        height: 54px;
+        border: 2px solid rgba(50, 51, 52, 1);
+        background-color: rgba(50, 51, 52, 1);
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+        &.Login__Btn {
+          width: 416px;
+          height: 54px;
+          background-color: #fff;
+          color: #000;
+          &:hover {
+            background-color: rgba(50, 51, 52, 1);
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+.Empty {
+  text-align: center;
+  margin: auto;
+}
+.H1 {
+  margin-top: 29px;
+}
+.Countine {
+  width: 416px;
+  height: 54px;
+  background-color: rgba(50, 51, 52, 1);
+  border: 2px solid rgba(50, 51, 52, 1);
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  &:hover{
+  background-color: transparent;
+  border: 2px solid rgba(50, 51, 52, 1);
+  color: rgba(50, 51, 52, 1);
+  }
+}
+.Order1{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.Shipping{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+.Cart__Total{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.Heading{
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}

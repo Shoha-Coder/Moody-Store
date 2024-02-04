@@ -1,0 +1,77 @@
+.Sale {
+    margin-top: 20px;
+    width: 1440px;
+    height: 566px;
+    border: 1px solid #000;
+    background-color: rgba(219, 208, 204, 0.80);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .Sale__bottom {
+        width: 465px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 193px;
+
+        .Sale__img {
+            width: 594px;
+            height: 446px;
+        }
+
+        .Sale__title {
+            color: #323334;
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .Sale__description {
+            color: #a86a3d;
+            font-size: 48px;
+            font-weight: 700;
+        }
+    }
+}
+
+.Top__cards {
+    width: 1440px;
+    height: 517px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .Top__card {
+        width: 636px;
+        height: 368px;
+        background-color: #fafafa;
+        display: flex;
+        align-items: center;
+
+        &:nth-child(2) {
+            background-color: #eae9e7;
+            width: 636px;
+            height: 368px;
+            display: flex;
+        }
+
+        .Top__card__bottom {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-left: 30px;
+
+            .Top__card__title {
+                color: #323334;
+                font-size: 28px;
+                font-weight: 900;
+            }
+        }
+
+        .Top__card__img {
+            cursor: auto;
+        }
+    }
+}

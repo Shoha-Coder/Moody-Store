@@ -1,0 +1,18 @@
+.header{
+    width: 80%;
+    margin: auto;
+    .links{
+        height: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-bottom: 1px solid #000;
+        width: 99%;
+        margin: auto;
+    a{
+        text-decoration: none;
+        font-weight: 500;
+        color: #000;
+    }
+}
+}

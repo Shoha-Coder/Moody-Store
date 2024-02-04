@@ -1,0 +1,69 @@
+.page404 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    img {
+        width: 500px;
+        height: 360px;
+        margin: auto;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    a {
+        width: 10%;
+        height: 36px;
+        margin: auto;
+        background-color: #32e6e3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #000;
+        font-weight: 400;
+        border-radius: 7px;
+        font-size: 90%;
+
+        @media only screen and (max-width: 1382px) {
+            & {
+                font-size: 70%;
+            }
+
+            @media only screen and (max-width:1184px) {
+                & {
+                    font-size: 60%;
+                }
+
+                @media only screen and (max-width:902px) {
+                    & {
+                        font-size: 50%;
+                    }
+
+                    @media only screen and (max-width:780px) {
+                        & {
+                            font-size: 40%;
+                        }
+
+                        @media only screen and (max-width:750px) {
+                            & {
+                                font-size: 35%;
+                            }
+
+                            @media only screen and (max-width:642px) {
+                                & {
+                                    font-size: 30%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

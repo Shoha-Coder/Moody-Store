@@ -1,0 +1,156 @@
+input[type="checkbox"]:checked {
+  color: white;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  height: 16px;
+  width: 16px;
+  border: 1px solid white;
+  color: white;
+}
+
+input[type="checkbox"]:after {
+  content: " ";
+  position: relative;
+}
+.FilterSide {
+  label {
+    input {
+      width: 22px;
+      height: 22px;
+      border-radius: 5px;
+      &.white {
+        border: 3px solid rgba(206, 204, 204, 1);
+        &:checked {
+          border: 4px solid rgba(206, 204, 204, 0.8);
+        }
+      }
+      &.black {
+        background: rgba(50, 51, 52, 1);
+        &:checked {
+          border: 4px solid rgba(50, 51, 52, 0.8);
+        }
+      }
+      &.gray {
+        background: rgba(196, 196, 196, 1);
+        &:checked {
+          border: 4px solid rgba(196, 196, 196, 0.8);
+        }
+      }
+      &.yellow {
+        background: rgba(242, 201, 76, 1);
+        &:checked {
+          border: 4px solid rgba(242, 201, 76, 0.8);
+        }
+      }
+      &.orange {
+        background: rgba(242, 153, 74, 1);
+        &:checked {
+          border: 4px solid rgba(242, 153, 74, 0.8);
+        }
+      }
+      &.pink {
+        background: rgba(235, 87, 87, 1);
+        &:checked {
+          border: 4px solid rgba(235, 87, 87, 0.8);
+        }
+      }
+      &.purple {
+        background: rgba(187, 107, 217, 1);
+        &:checked {
+          border: 4px solid rgba(187, 107, 217, 0.8);
+        }
+      }
+      &.blue {
+        background: rgba(86, 204, 242, 1);
+        &:checked {
+          border: 4px solid rgba(86, 204, 242, 0.8);
+        }
+      }
+      &.green {
+        background: rgba(111, 207, 151, 1);
+        &:checked {
+          border: 4px solid rgba(111, 207, 151, 0.8);
+        }
+      }
+      &.mediumgreen {
+        background: rgba(33, 150, 83, 1);
+        &:checked {
+          border: 4px solid rgba(33, 150, 83, 0.8);
+        }
+      }
+      &.mediumblue {
+        background: rgba(47, 128, 237, 1);
+        &:checked {
+          border: 4px solid rgba(47, 128, 237, 0.8);
+        }
+      }
+      &.red {
+        background: rgba(223, 19, 19, 1);
+        &:checked {
+          border: 4px solid rgba(223, 19, 19, 0.8);
+        }
+      }
+      &.brown {
+        background: rgba(119, 5, 5, 1);
+        &:checked {
+          border: 4px solid rgba(119, 5, 5, 0.8);
+        }
+      }
+      &.darkblue {
+        background: rgba(10, 93, 139, 1);
+        &:checked {
+          border: 4px solid rgba(10, 93, 139, 0.8);
+        }
+      }
+      &.darkorange {
+        background: rgba(173, 91, 18, 1);
+        &:checked {
+          border: 4px solid rgba(173, 91, 18, 0.8);
+        }
+      }
+      &.darkpurple {
+        background: rgba(79, 14, 139, 1);
+        &:checked {
+          border: 4px solid rgba(79, 14, 139, 0.8);
+        }
+      }
+      &.cyan {
+        background: rgba(10, 112, 144, 1);
+        &:checked {
+          border: 4px solid rgba(10, 112, 144, 0.8);
+        }
+      }
+      &.darkgreen {
+        background: rgba(21, 96, 8, 1);
+        &:checked {
+          border: 4px solid rgba(21, 96, 8, 0.8);
+        }
+      }
+    }
+  }
+  .Cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    position: relative;
+    left: 500px;
+    .Card {
+      width: 316px;
+      height: 487px;
+      .Prop {
+        width: 229px;
+        width: 90px;
+        .title{
+          font-weight: 700;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

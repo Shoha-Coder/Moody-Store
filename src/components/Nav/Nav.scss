@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    .icons{
+        width: 20%;
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        align-items: center;
+    }
+    border-bottom: 1px solid black;
+}

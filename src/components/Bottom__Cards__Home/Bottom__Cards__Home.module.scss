@@ -1,0 +1,50 @@
+.Container_BCards {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    margin-bottom: 30px;
+  }
+  .Bottom__Cards__Home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 25px;
+    .Bottom__Card__Home {
+      width: 406px;
+      height: 308px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .Right {
+        .title {
+          color: #323334;
+          width: 100px;
+        }
+        .Stars {
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  .Load {
+    width: 371px;
+    height: 51px;
+    background-color: rgba(50, 51, 52, 1);
+    color: #fff;
+    font-weight: bold;
+      margin-left: 580px;
+      margin-top: 50px;
+    &:hover {
+      width: 371px;
+      height: 51px;
+      background-color: #fff;
+      color: #000;
+      border: 1px solid #000;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}
